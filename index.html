@@ -240,10 +240,7 @@ var ParticlePool = (function() {
     context.fillText(text, canvas.width / 2, canvas.height / 2); // 填充文字（主体）
     context.strokeText(text, canvas.width / 2, canvas.height / 2); // 描边文字（增强可读性）
 
-    // 可选：添加第二行文字（比如小字备注）
-    context.font = '24px "Microsoft Yahei", Arial';
-    context.fillStyle = '#ffc0cb';
-    context.fillText('Forever', canvas.width / 2, canvas.height / 2 + 60);
+
     
     context.restore(); // 恢复Canvas状态
     // ========== 文字绘制结束 ==========
